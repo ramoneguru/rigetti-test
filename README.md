@@ -1,11 +1,12 @@
 # Rigetti take home test
 
 ## Notes
-* Setup was relatively easy for client/server. 
+* Setup was relatively easy for client/server.
 * Flask was chosen for the API since it was pretty straightforward (small issue with CORS)
 * Vite (for React) is very simple to get up and working, so I went with that environment
 * ChartJS is the charting lib being used since it's `canvas` based which should give better performance for large datasets
 * Getting the data structured in a way for presenting was a little more challenging than anticipated
+* Of course debugging the final output took more time than anticipated
 
 ## Prerequisites (local install)
 1. NodeJS > 18.0.0
@@ -38,7 +39,7 @@ $ npm run dev
 You should now be able to go to: http://localhost:5173/ and see the chart data
 
 ## Estimates
-| Task | Estimate  | 
+| Task | Estimate  |
 |----------|----------|
 | Setup Python Flask   | 30 mins   |
 | Get working Flask API   | 30 mins   |
