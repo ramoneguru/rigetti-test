@@ -74,7 +74,7 @@ const Dashboard = () => {
             <CycleBar chartData={currentCycleChartData} />
           </div>
           ) : (
-            <div>No Chart Selected</div>
+            <div>Select a Chart by clicking the 'Show Chart' link in the table</div>
           )
         }
       </React.Fragment>
